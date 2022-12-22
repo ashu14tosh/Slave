@@ -1,7 +1,7 @@
 pipeline {
   agent {
     label {
-      label'QA'
+      label'built-in'
       customWorkspace '/mnt/newslave'
           }
   }
