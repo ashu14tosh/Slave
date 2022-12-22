@@ -14,7 +14,7 @@ pipeline {
     }  
     stage ('deployment'){
       steps {
-            sh "cp -r /mnt/assign1/index.html /var/www/html"
+            sh "cp -r /mnt/newslave/index.html /var/www/html"
                 
       }
     }
